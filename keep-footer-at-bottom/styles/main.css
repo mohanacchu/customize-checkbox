@@ -1,0 +1,48 @@
+/* Keep footer at bottom */
+* {
+	box-sizing: border-box;
+}
+
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+	position: relative;
+}
+
+.main-container {
+	min-height: 100vh;
+	overflow: hidden;
+	display: block;
+	position: relative;
+	padding-bottom: 100px;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+/* end of keep footer at bottom */
+body {
+	background: #fafafa;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #333;
+}
+
+.text-center {
+	text-align: center;
+}
+
+header, footer {
+	background: #eee;
+}
+header p, footer p {
+	padding: 24px;
+	margin: 0;
+}
